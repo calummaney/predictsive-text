@@ -1,16 +1,8 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
 sites|stem|738266c0a1d18daf|e02cd1d636285bac|ab5033563c76d49e|-2078618451||t20311.4449778836s|s136237b|136237|qs|local|vector|||13.266|package 'rinat' was built under R version 4.5.1. package 'party' was built under R version 4.5.1. package 'strucchange' was built under R version 4.5.1. package 'sandwich' was built under R version 4.5.1|
-siteEmbeddings|stem|33e1bb4e11972749|a8296df157124f2e|cd918af012a0186f|-796923963||t20311.65942245s|s278532529b|278532529|qs|local|vector|||805.343||
 localNatData|stem|607a41c24b2c28ef|25f4e487433d4def|930b107ddd3c2a2d|1947883739||t20312.4001614522s|s41071b|41071|qs|local|vector|||125.234|package 'rinat' was built under R version 4.5.1. package 'party' was built under R version 4.5.1. package 'strucchange' was built under R version 4.5.1. package 'sandwich' was built under R version 4.5.1|
 localSiteEmbeddings|stem|5795b9df14ac62da|e395f3b295a5b7ab|ea1dadce633e90d0|292502427||t20312.4030925735s|s27207532b|27207532|qs|local|vector|||252.672||
 predictedPREDICTSclasses|stem|0e1d2b082f3240d5|9f8ba883fcc63cc5|192424d99b192324|883258009||t20312.3796499074s||409400|qs|local|vector|||2.421|Detected an unexpected many-to-many relationship between `x` and `y`. ℹ Row 1 of `x` matches multiple rows in `y`. ℹ Row 1 of `y` matches multiple rows in `x`. ℹ If a many-to-many relationship is expected, set `relationship =   'many-to-many'` to silence this warning.|Assigned data `siteTexts_classes$LandUse` must be compatible with existing data. ✖ Existing data has 763 rows. ✖ Assigned data has 1194714 rows. ℹ Only vectors of size 1 are recycled. Caused by error in `vectbl_recycle_rhs_rows()`: ! Can't recycle input of size 1194714 to size 763.
-getExistingLocalData|function|95cfc9ef628d3961
-getLocalSiteData_iNat|function|6ea3a199b3551579
-.Random.seed|object|7537db5e9d13e065
-loadBDdata|function|cb3088ac612106b1
-predictPREDICTSclasses|function|76d931e96d919b2b
-getSiteEmbeddings|function|cb5d9f0b7f9e0314
-getLocalSiteEmbeddings|function|b6ae2fb38a71ba87
 getExistingLocalData|function|95cfc9ef628d3961
 getLocalSiteData_iNat|function|6ea3a199b3551579
 .Random.seed|object|6b6f926f828572e9
@@ -18,3 +10,4 @@ loadBDdata|function|cb3088ac612106b1
 predictPREDICTSclasses|function|76d931e96d919b2b
 getSiteEmbeddings|function|46432f46b0835ae9
 getLocalSiteEmbeddings|function|b6ae2fb38a71ba87
+siteEmbeddings|stem|33e1bb4e11972749|a8296df157124f2e|7be3f60da125465d|-796923963||t20311.65942245s||278532529|qs|local|vector|||1226.546||Assigned data `siteTexts_classes$LandUse` must be compatible with existing data. ✖ Existing data has 763 rows. ✖ Assigned data has 9544 rows. ℹ Only vectors of size 1 are recycled. Caused by error in `vectbl_recycle_rhs_rows()`: ! Can't recycle input of size 9544 to size 763.
